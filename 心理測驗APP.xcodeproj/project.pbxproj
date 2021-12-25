@@ -14,6 +14,10 @@
 		CC1D8B5527738EA7005D4BA5 /* ____APP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC1D8B5327738EA7005D4BA5 /* ____APP.xcdatamodeld */; };
 		CC1D8B5727738EC0005D4BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1D8B5627738EC0005D4BA5 /* Assets.xcassets */; };
 		CC1D8B5A27738EC0005D4BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1D8B5827738EC0005D4BA5 /* LaunchScreen.storyboard */; };
+		CC1D8B63277454A6005D4BA5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D8B62277454A6005D4BA5 /* ResultViewController.swift */; };
+		CC1D8B65277454C4005D4BA5 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D8B64277454C4005D4BA5 /* QuestionViewController.swift */; };
+		CC1D8B672775C4AC005D4BA5 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D8B662775C4AC005D4BA5 /* StartViewController.swift */; };
+		CC1D8B692775DA47005D4BA5 /* Personality.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D8B682775DA46005D4BA5 /* Personality.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		CC1D8B5627738EC0005D4BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC1D8B5927738EC0005D4BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1D8B5B27738EC0005D4BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1D8B62277454A6005D4BA5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CC1D8B64277454C4005D4BA5 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CC1D8B662775C4AC005D4BA5 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CC1D8B682775DA46005D4BA5 /* Personality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personality.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,28 @@
 		CC1D8B4927738EA7005D4BA5 /* 心理測驗APP */ = {
 			isa = PBXGroup;
 			children = (
+				CC1D8B682775DA46005D4BA5 /* Personality.swift */,
 				CC1D8B4A27738EA7005D4BA5 /* AppDelegate.swift */,
 				CC1D8B4C27738EA7005D4BA5 /* SceneDelegate.swift */,
-				CC1D8B4E27738EA7005D4BA5 /* ViewController.swift */,
 				CC1D8B5027738EA7005D4BA5 /* Main.storyboard */,
 				CC1D8B5627738EC0005D4BA5 /* Assets.xcassets */,
 				CC1D8B5827738EC0005D4BA5 /* LaunchScreen.storyboard */,
 				CC1D8B5B27738EC0005D4BA5 /* Info.plist */,
 				CC1D8B5327738EA7005D4BA5 /* ____APP.xcdatamodeld */,
+				CC1D8B6127745471005D4BA5 /* View Controllers */,
 			);
 			path = "心理測驗APP";
+			sourceTree = "<group>";
+		};
+		CC1D8B6127745471005D4BA5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC1D8B4E27738EA7005D4BA5 /* ViewController.swift */,
+				CC1D8B662775C4AC005D4BA5 /* StartViewController.swift */,
+				CC1D8B64277454C4005D4BA5 /* QuestionViewController.swift */,
+				CC1D8B62277454A6005D4BA5 /* ResultViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1D8B63277454A6005D4BA5 /* ResultViewController.swift in Sources */,
+				CC1D8B672775C4AC005D4BA5 /* StartViewController.swift in Sources */,
 				CC1D8B4F27738EA7005D4BA5 /* ViewController.swift in Sources */,
+				CC1D8B65277454C4005D4BA5 /* QuestionViewController.swift in Sources */,
 				CC1D8B5527738EA7005D4BA5 /* ____APP.xcdatamodeld in Sources */,
 				CC1D8B4B27738EA7005D4BA5 /* AppDelegate.swift in Sources */,
+				CC1D8B692775DA47005D4BA5 /* Personality.swift in Sources */,
 				CC1D8B4D27738EA7005D4BA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
